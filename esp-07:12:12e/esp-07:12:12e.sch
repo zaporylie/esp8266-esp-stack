@@ -624,35 +624,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.43" y1="16.51" x2="-24.13" y2="16.51" width="0.127" layer="20"/>
 <dimension x1="-20.32" y1="12.7" x2="-20.32" y2="-15.24" x3="-26.67" y3="-1.27" textsize="1.27" layer="47"/>
 <dimension x1="-20.32" y1="12.7" x2="7.62" y2="12.7" x3="-6.35" y3="19.05" textsize="1.27" layer="47"/>
-<pad name="TXD0" x="-17.78" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="RXD0" x="-15.24" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GPIO5" x="-12.7" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GPIO4" x="-10.16" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GPIO0" x="-7.62" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GPIO2" x="-5.08" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GPIO15" x="-2.54" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GND@5" x="0" y="13.97" drill="1.2" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="SCLK" x="2.54" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GPIO12" x="0" y="-16.51" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="V+" x="-17.78" y="-16.51" drill="1.2" diameter="1.9304" shape="square" rot="R90"/>
-<pad name="VBATT" x="-15.24" y="-16.51" drill="1.2" diameter="1.9304" shape="square" rot="R90"/>
-<pad name="RST" x="-12.7" y="-16.51" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="ADC" x="-10.16" y="-16.51" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="EN" x="-7.62" y="-16.51" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GPIO16" x="-5.08" y="-16.51" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GPIO14" x="-2.54" y="-16.51" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="MOSI" x="5.08" y="13.97" drill="1.2" diameter="1.9304" rot="R90"/>
-<pad name="GND@1" x="-21.59" y="13.97" drill="3.2" diameter="4.064" shape="octagon"/>
-<pad name="GND@2" x="8.89" y="13.97" drill="3.2" diameter="4.064" shape="octagon"/>
-<pad name="GND@4" x="8.89" y="-16.51" drill="3.2" diameter="4.064" shape="octagon"/>
-<pad name="GND@3" x="-21.59" y="-16.51" drill="3.2" diameter="4.064" shape="octagon"/>
-<pad name="GPIO13" x="2.54" y="-16.51" drill="1.2" diameter="1.9304"/>
-<pad name="VCC" x="5.08" y="-16.51" drill="1.2" diameter="1.9304" shape="square"/>
-<pad name="GPIO10" x="8.89" y="10.16" drill="1.2" diameter="1.9304"/>
-<pad name="GPIO9" x="8.89" y="7.62" drill="1.2" diameter="1.9304"/>
-<pad name="MISO" x="8.89" y="5.08" drill="1.2" diameter="1.9304"/>
-<pad name="CS0" x="8.89" y="2.54" drill="1.2" diameter="1.9304"/>
-<pad name="SIGNAL1" x="8.89" y="0" drill="1.2" diameter="1.9304"/>
+<pad name="TXD0" x="-17.78" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="RXD0" x="-15.24" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GPIO5" x="-12.7" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GPIO4" x="-10.16" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GPIO0" x="-7.62" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GPIO2" x="-5.08" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GPIO15" x="-2.54" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GND@5" x="0" y="13.97" drill="1.2" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="SCLK" x="2.54" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GPIO12" x="0" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="V+" x="-17.78" y="-16.51" drill="1.2" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="VBATT" x="-15.24" y="-16.51" drill="1.2" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="RST" x="-12.7" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="ADC" x="-10.16" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="EN" x="-7.62" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GPIO16" x="-5.08" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GPIO14" x="-2.54" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="MOSI" x="5.08" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
+<pad name="GND@1" x="-21.59" y="13.97" drill="3.2" diameter="4.318" shape="square"/>
+<pad name="GND@2" x="8.89" y="13.97" drill="3.2" diameter="4.318" shape="square"/>
+<pad name="GND@4" x="8.89" y="-16.51" drill="3.2" diameter="4.318" shape="square"/>
+<pad name="GND@3" x="-21.59" y="-16.51" drill="3.2" diameter="4.318" shape="square"/>
+<pad name="GPIO13" x="2.54" y="-16.51" drill="1.2" diameter="2.1844"/>
+<pad name="VCC" x="5.08" y="-16.51" drill="1.2" diameter="2.1844" shape="square"/>
+<pad name="GPIO10" x="8.89" y="10.16" drill="1.2" diameter="2.1844"/>
+<pad name="GPIO9" x="8.89" y="7.62" drill="1.2" diameter="2.1844"/>
+<pad name="MISO" x="8.89" y="5.08" drill="1.2" diameter="2.1844"/>
+<pad name="CS0" x="8.89" y="2.54" drill="1.2" diameter="2.1844"/>
+<pad name="SIGNAL1" x="8.89" y="0" drill="1.2" diameter="2.1844"/>
 <wire x1="-19.05" y1="15.24" x2="6.35" y2="15.24" width="0.127" layer="21"/>
 <wire x1="6.35" y1="15.24" x2="6.35" y2="12.7" width="0.127" layer="21"/>
 <wire x1="6.35" y1="12.7" x2="-19.05" y2="12.7" width="0.127" layer="21"/>
@@ -695,10 +695,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <dimension x1="-21.59" y1="13.97" x2="8.89" y2="13.97" x3="-6.35" y3="21.59" textsize="1.27" layer="47"/>
 <dimension x1="-24.13" y1="16.51" x2="11.43" y2="16.51" x3="-6.35" y3="24.13" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="0" x2="9.4996" y2="0" x3="9.1948" y3="0" textsize="1.27" layer="47"/>
-<dimension x1="8.89" y1="2.54" x2="9.8552" y2="2.54" x3="9.3726" y3="2.54" textsize="1.27" layer="47"/>
+<dimension x1="8.89" y1="2.54" x2="9.9822" y2="2.54" x3="9.4361" y3="2.54" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="7.62" x2="8.89" y2="10.16" x3="17.78" y3="8.89" textsize="1.27" layer="47"/>
 <text x="-21.59" y="-12.7" size="1.778" layer="25" rot="R90">&gt;Name</text>
-<pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.2" diameter="1.9304"/>
+<pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.2" diameter="2.1844"/>
 <text x="6.985" y="-2.54" size="0.6096" layer="21" rot="R45" align="top-right">SIGNAL2</text>
 </package>
 </packages>
