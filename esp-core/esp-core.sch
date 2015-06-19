@@ -794,27 +794,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>
 <part name="ESPCORE" library="ESPstack" deviceset="ESP-BOARD" device=""/>
 <part name="ESP-12E" library="ESPstack" deviceset="ESP-12E" device=""/>
+<part name="R3" library="dp_devices" deviceset="RESISTOR" device="-1206" value="10k"/>
+<part name="R4" library="dp_devices" deviceset="RESISTOR" device="-1206" value="10k"/>
+<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="R1" gate="G$1" x="-144.78" y="-10.16" rot="R90"/>
-<instance part="R2" gate="G$1" x="-132.08" y="-10.16" rot="R90"/>
-<instance part="RESET" gate="SW" x="-132.08" y="-30.48" rot="R90"/>
+<instance part="R1" gate="G$1" x="-73.66" y="-33.02" rot="R90"/>
+<instance part="R2" gate="G$1" x="-121.92" y="-10.16" rot="R90"/>
+<instance part="RESET" gate="SW" x="-121.92" y="-30.48" rot="R90"/>
 <instance part="+3V1" gate="G$1" x="15.24" y="25.4"/>
-<instance part="+3V2" gate="G$1" x="-144.78" y="-2.54"/>
-<instance part="+3V3" gate="G$1" x="-132.08" y="5.08"/>
+<instance part="+3V2" gate="G$1" x="-73.66" y="-25.4"/>
+<instance part="+3V3" gate="G$1" x="-121.92" y="5.08"/>
 <instance part="+3V4" gate="G$1" x="-93.98" y="12.7"/>
 <instance part="GND1" gate="1" x="99.06" y="15.24"/>
-<instance part="GND3" gate="1" x="-22.86" y="2.54"/>
-<instance part="GND4" gate="1" x="-132.08" y="-48.26"/>
+<instance part="GND3" gate="1" x="-25.4" y="-17.78"/>
+<instance part="GND4" gate="1" x="-121.92" y="-48.26"/>
 <instance part="+3V5" gate="G$1" x="-104.14" y="-30.48"/>
 <instance part="GND5" gate="1" x="-104.14" y="-48.26"/>
 <instance part="C1" gate="G$1" x="-104.14" y="-38.1"/>
 <instance part="ESPCORE" gate="G$1" x="53.34" y="27.94"/>
 <instance part="ESP-12E" gate="G$1" x="-48.26" y="17.78"/>
+<instance part="R3" gate="G$1" x="-86.36" y="-33.02" rot="R90"/>
+<instance part="R4" gate="G$1" x="-10.16" y="5.08" rot="R90"/>
+<instance part="+3V6" gate="G$1" x="-86.36" y="-25.4"/>
 </instances>
 <busses>
 </busses>
@@ -873,6 +879,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="ESPCORE" gate="G$1" pin="GPIO0"/>
 <wire x1="73.66" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-86.36" y1="-38.1" x2="-86.36" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
@@ -890,6 +900,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-10.16" y1="10.16" x2="-25.4" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="ESP-12E" gate="G$1" pin="GPIO15"/>
 <junction x="-25.4" y="10.16"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="ESPCORE" gate="G$1" pin="GPIO15"/>
@@ -1021,13 +1032,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="RESET" gate="SW" pin="1"/>
-<wire x1="-132.08" y1="-35.56" x2="-132.08" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="-35.56" x2="-121.92" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-25.4" y1="5.08" x2="-22.86" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="5.08" x2="-25.4" y2="0" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="ESP-12E" gate="G$1" pin="GND"/>
 <junction x="-25.4" y="5.08"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="0" x2="-25.4" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="0" x2="-25.4" y2="0" width="0.1524" layer="91"/>
+<junction x="-25.4" y="0"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -1045,7 +1060,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="-132.08" y1="2.54" x2="-132.08" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="2.54" x2="-121.92" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
@@ -1069,12 +1084,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="-104.14" y1="-35.56" x2="-104.14" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
 <pinref part="RESET" gate="SW" pin="3"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-132.08" y1="-25.4" x2="-132.08" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="-25.4" x2="-121.92" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-86.36" y1="40.64" x2="-76.2" y2="40.64" width="0.1524" layer="91"/>
@@ -1094,7 +1113,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-144.78" y1="-22.86" x2="-144.78" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-50.8" x2="-73.66" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ESPCORE" gate="G$1" pin="EN"/>
