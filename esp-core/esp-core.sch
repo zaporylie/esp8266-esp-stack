@@ -439,7 +439,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <dimension x1="8.89" y1="0" x2="9.5758" y2="0" x3="9.2329" y3="0" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="2.54" x2="9.9822" y2="2.54" x3="9.4361" y3="2.54" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="7.62" x2="8.89" y2="10.16" x3="17.78" y3="8.89" textsize="1.27" layer="47"/>
-<text x="3.81" y="-11.43" size="1.778" layer="26" rot="R90">&gt;Name</text>
+<text x="3.81" y="-13.97" size="1.778" layer="26" rot="MR90">&gt;Name</text>
 <pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.4" diameter="2.1844"/>
 <hole x="8.255" y="13.335" drill="3.2"/>
 <hole x="-20.955" y="13.335" drill="3.2"/>
