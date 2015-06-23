@@ -1,0 +1,3 @@
+[submodule "libraries/NBitWonder-Eagle-Library"]
+	path = libraries/NBitWonder-Eagle-Library
+	url = git@github.com:NBitWonder/NBitWonder-Eagle-Library.git
