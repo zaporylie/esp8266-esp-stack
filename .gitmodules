@@ -1,3 +1,6 @@
 [submodule "libraries/NBitWonder-Eagle-Library"]
 	path = libraries/NBitWonder-Eagle-Library
 	url = git@github.com:NBitWonder/NBitWonder-Eagle-Library.git
+[submodule "libraries/SparkFun-Eagle-Libraries"]
+	path = libraries/SparkFun-Eagle-Libraries
+	url = git@github.com:sparkfun/SparkFun-Eagle-Libraries.git
