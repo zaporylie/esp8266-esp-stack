@@ -351,6 +351,17 @@ http://dangerousprototypes.com</description>
 <hole x="0" y="0.9" drill="0.55"/>
 <hole x="0" y="-0.9" drill="0.55"/>
 </package>
+<package name="1X06">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<pad name="1" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="ftdichip">
@@ -509,60 +520,6 @@ http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</description>
 <text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-</package>
-</packages>
-</library>
-<library name="pinhead">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1X06/90">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-7.62" y1="-1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="6.985" x2="-6.35" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-1.905" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="6.985" x2="6.35" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-8.255" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="9.525" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-6.731" y1="0.635" x2="-5.969" y2="1.143" layer="21"/>
-<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
-<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
-<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
-<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
-<rectangle x1="5.969" y1="0.635" x2="6.731" y2="1.143" layer="21"/>
-<rectangle x1="-6.731" y1="-2.921" x2="-5.969" y2="-1.905" layer="21"/>
-<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
-<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
-<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
-<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
-<rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
 </package>
 </packages>
 </library>
@@ -797,7 +754,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R1" library="dp_devices" package="R1206" value="68" x="30.226" y="9.906" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.559" y="13.081" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="H1" library="ESPstack" package="ESP-BOARD" value="ESP-BOARD" x="24.13" y="19.05"/>
+<element name="POWER/FTDI" library="ESPstack" package="ESP-BOARD" value="ESP-BOARD" x="24.13" y="19.05"/>
 <element name="IC2" library="ftdichip" package="SSOP28" value="FT232RL" x="17.78" y="21.59" smashed="yes" rot="R270">
 <attribute name="OC_FARNELL" value="1146032" x="17.78" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="17.78" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
@@ -831,8 +788,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="16.637" y="8.763" size="0.6096" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="15.24" y="5.9499" size="0.02" layer="27" rot="R270"/>
 </element>
-<element name="JP3" library="pinhead" package="1X06/90" value="" x="1.016" y="22.86" smashed="yes" rot="R90">
-<attribute name="VALUE" x="4.191" y="15.24" size="1.27" layer="27" rot="R90"/>
+<element name="JP3" library="ESPstack" package="1X06" value="" x="4.826" y="22.86" smashed="yes" rot="R90">
+<attribute name="VALUE" x="8.001" y="15.24" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="EIA3216" value="10uF" x="7.874" y="13.716" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-00811" x="7.874" y="13.716" size="1.778" layer="27" rot="R270" display="off"/>
@@ -859,7 +816,7 @@ Please make sure your boards conform to these design rules.</description>
 <signals>
 <signal name="V+">
 <contactref element="C2" pad="A"/>
-<contactref element="H1" pad="V+"/>
+<contactref element="POWER/FTDI" pad="V+"/>
 <contactref element="D1" pad="C"/>
 <contactref element="D2" pad="C"/>
 <contactref element="U1" pad="3"/>
@@ -885,7 +842,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="20.157109375" y1="13.754653125" x2="21.177896875" y2="12.733865625" width="0.6096" layer="1"/>
 </signal>
 <signal name="+3V3">
-<contactref element="H1" pad="VCC"/>
+<contactref element="POWER/FTDI" pad="VCC"/>
 <contactref element="C1" pad="A"/>
 <contactref element="IC2" pad="4"/>
 <contactref element="TX-LED" pad="A"/>
@@ -937,7 +894,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP1" pad="MT2"/>
 <contactref element="C1" pad="C"/>
 <contactref element="C2" pad="C"/>
-<contactref element="H1" pad="GND"/>
+<contactref element="POWER/FTDI" pad="GND"/>
 <contactref element="IC2" pad="7"/>
 <contactref element="IC2" pad="18"/>
 <contactref element="IC2" pad="21"/>
@@ -996,7 +953,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="7.62" y1="8.89" x2="7.874" y2="13.716" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBATT">
-<contactref element="H1" pad="VBATT"/>
+<contactref element="POWER/FTDI" pad="VBATT"/>
 </signal>
 <signal name="DTR">
 <contactref element="BOOT" pad="2"/>
@@ -1043,7 +1000,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="20.047" y1="18.015" x2="21.405" y2="18.015" width="0.4064" layer="1"/>
 </signal>
 <signal name="GPIO0">
-<contactref element="H1" pad="GPIO0"/>
+<contactref element="POWER/FTDI" pad="GPIO0"/>
 <contactref element="BOOT" pad="1"/>
 <wire x1="17.272" y1="32.258" x2="16.51" y2="33.02" width="0" layer="19" extent="1-16"/>
 <wire x1="16.51" y1="30.48" x2="16.51" y2="33.02" width="0.6096" layer="1"/>
@@ -1107,7 +1064,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="RST">
 <contactref element="WAKE" pad="2"/>
-<contactref element="H1" pad="RST"/>
+<contactref element="POWER/FTDI" pad="RST"/>
 <contactref element="RESET" pad="2"/>
 <wire x1="12.954" y1="6.35" x2="11.938" y2="6.35" width="0.6096" layer="1"/>
 <wire x1="11.938" y1="6.35" x2="11.43" y2="5.842" width="0.6096" layer="1"/>
@@ -1144,7 +1101,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="TXD">
 <contactref element="IC2" pad="1"/>
-<contactref element="H1" pad="RXD0"/>
+<contactref element="POWER/FTDI" pad="RXD0"/>
 <contactref element="JP3" pad="3"/>
 <wire x1="4.826" y1="21.59" x2="11.176" y2="21.59" width="0.4064" layer="1"/>
 <wire x1="14.155" y1="25.815" x2="12.353" y2="25.815" width="0.4064" layer="1"/>
@@ -1161,7 +1118,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="RXD">
 <contactref element="IC2" pad="5"/>
-<contactref element="H1" pad="TXD0"/>
+<contactref element="POWER/FTDI" pad="TXD0"/>
 <contactref element="JP3" pad="2"/>
 <wire x1="14.155" y1="23.215" x2="13.055" y2="23.215" width="0.4064" layer="1"/>
 <wire x1="13.055" y1="23.215" x2="12.7" y2="22.86" width="0.4064" layer="1"/>
@@ -1178,7 +1135,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="GPIO16">
 <contactref element="WAKE" pad="1"/>
-<contactref element="H1" pad="GPIO16"/>
+<contactref element="POWER/FTDI" pad="GPIO16"/>
 <wire x1="12.954" y1="4.826" x2="13.462" y2="4.826" width="0.6096" layer="1"/>
 <wire x1="13.462" y1="4.826" x2="13.97" y2="4.318" width="0.6096" layer="1"/>
 <wire x1="13.97" y1="4.318" x2="18.542" y2="4.318" width="0.6096" layer="1"/>
