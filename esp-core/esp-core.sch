@@ -399,31 +399,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="ESP-BOARD">
 <dimension x1="-20.32" y1="12.7" x2="-20.32" y2="-15.24" x3="-26.67" y3="-1.27" textsize="1.27" layer="47"/>
 <dimension x1="-20.32" y1="12.7" x2="7.62" y2="12.7" x3="-6.35" y3="19.05" textsize="1.27" layer="47"/>
-<pad name="TXD0" x="-17.78" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="RXD0" x="-15.24" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO5" x="-12.7" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO4" x="-10.16" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO0" x="-7.62" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO2" x="-5.08" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO15" x="-2.54" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GND" x="0" y="13.97" drill="1.4" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="SCLK" x="2.54" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO12" x="0" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="V+" x="-17.78" y="-16.51" drill="1.4" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="VBATT" x="-15.24" y="-16.51" drill="1.4" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="RST" x="-12.7" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="ADC" x="-10.16" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="EN" x="-7.62" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO16" x="-5.08" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO14" x="-2.54" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="MOSI" x="5.08" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO13" x="2.54" y="-16.51" drill="1.4" diameter="2.1844"/>
-<pad name="VCC" x="5.08" y="-16.51" drill="1.4" diameter="2.1844" shape="square"/>
-<pad name="GPIO10" x="8.89" y="10.16" drill="1.4" diameter="2.1844"/>
-<pad name="GPIO9" x="8.89" y="7.62" drill="1.4" diameter="2.1844"/>
-<pad name="MISO" x="8.89" y="5.08" drill="1.4" diameter="2.1844"/>
-<pad name="CS0" x="8.89" y="2.54" drill="1.4" diameter="2.1844"/>
-<pad name="SIGNAL1" x="8.89" y="0" drill="1.4" diameter="2.1844"/>
+<pad name="TXD0" x="-17.78" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="RXD0" x="-15.24" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO5" x="-12.7" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO4" x="-10.16" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO0" x="-7.62" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO2" x="-5.08" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO15" x="-2.54" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GND" x="0" y="13.97" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="SCLK" x="2.54" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO12" x="0" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="V+" x="-17.78" y="-16.51" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="VBATT" x="-15.24" y="-16.51" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="RST" x="-12.7" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="ADC" x="-10.16" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="EN" x="-7.62" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO16" x="-5.08" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO14" x="-2.54" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="MOSI" x="5.08" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO13" x="2.54" y="-16.51" drill="1.5" diameter="2.1844"/>
+<pad name="VCC" x="5.08" y="-16.51" drill="1.5" diameter="2.1844" shape="square"/>
+<pad name="GPIO10" x="8.89" y="10.16" drill="1.5" diameter="2.1844"/>
+<pad name="GPIO9" x="8.89" y="7.62" drill="1.5" diameter="2.1844"/>
+<pad name="MISO" x="8.89" y="5.08" drill="1.5" diameter="2.1844"/>
+<pad name="CS0" x="8.89" y="2.54" drill="1.5" diameter="2.1844"/>
+<pad name="SIGNAL1" x="8.89" y="0" drill="1.5" diameter="2.1844"/>
 <wire x1="-19.05" y1="15.24" x2="6.35" y2="15.24" width="0.127" layer="22"/>
 <wire x1="6.35" y1="15.24" x2="6.35" y2="12.7" width="0.127" layer="22"/>
 <wire x1="6.35" y1="12.7" x2="-19.05" y2="12.7" width="0.127" layer="22"/>
@@ -436,15 +436,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.35" y1="-17.78" x2="-19.05" y2="-17.78" width="0.127" layer="22"/>
 <wire x1="-19.05" y1="-17.78" x2="-19.05" y2="-15.24" width="0.127" layer="22"/>
 <wire x1="-19.05" y1="-15.24" x2="6.35" y2="-15.24" width="0.127" layer="22"/>
-<dimension x1="8.89" y1="0" x2="9.5758" y2="0" x3="9.2329" y3="0" textsize="1.27" layer="47"/>
+<dimension x1="8.89" y1="0" x2="9.6266" y2="0" x3="9.2583" y3="0" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="2.54" x2="9.9822" y2="2.54" x3="9.4361" y3="2.54" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="7.62" x2="8.89" y2="10.16" x3="17.78" y3="8.89" textsize="1.27" layer="47"/>
 <text x="3.81" y="-13.97" size="1.778" layer="26" rot="MR90">&gt;Name</text>
-<pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.4" diameter="2.1844"/>
-<hole x="8.255" y="13.335" drill="3.2"/>
-<hole x="-20.955" y="13.335" drill="3.2"/>
-<hole x="8.255" y="-15.875" drill="3.2"/>
-<hole x="-20.955" y="-15.875" drill="3.2"/>
+<pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.5" diameter="2.1844"/>
+<hole x="8.255" y="13.335" drill="2.8"/>
+<hole x="-20.955" y="13.335" drill="2.8"/>
+<hole x="8.255" y="-15.875" drill="2.8"/>
+<hole x="-20.955" y="-15.875" drill="2.8"/>
 <dimension x1="-19.05" y1="15.24" x2="-19.05" y2="-17.78" x3="-30.48" y3="-1.27" textsize="1.27" layer="47"/>
 <dimension x1="10.16" y1="11.43" x2="-22.86" y2="11.43" x3="-6.35" y3="22.86" textsize="1.27" layer="47"/>
 </package>
@@ -725,7 +725,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R3" library="dp_devices" deviceset="RESISTOR" device="-1206" value="10k"/>
 <part name="R4" library="dp_devices" deviceset="RESISTOR" device="-1206" value="10k"/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="B1" library="ESPstack" deviceset="SKSCLDE010" device=""/>
+<part name="RESET" library="ESPstack" deviceset="SKSCLDE010" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -749,7 +749,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R3" gate="G$1" x="-86.36" y="-33.02" rot="R90"/>
 <instance part="R4" gate="G$1" x="-10.16" y="5.08" rot="R90"/>
 <instance part="+3V6" gate="G$1" x="-86.36" y="-25.4"/>
-<instance part="B1" gate="G$1" x="-121.92" y="-27.94" rot="R90"/>
+<instance part="RESET" gate="G$1" x="-121.92" y="-27.94" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -961,8 +961,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="-121.92" y1="-33.02" x2="-121.92" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="B1" gate="G$1" pin="1"/>
-<pinref part="B1" gate="G$1" pin="2"/>
+<pinref part="RESET" gate="G$1" pin="1"/>
+<pinref part="RESET" gate="G$1" pin="2"/>
 <wire x1="-121.92" y1="-33.02" x2="-119.38" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="-121.92" y="-33.02"/>
 </segment>
@@ -1025,8 +1025,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-121.92" y1="-25.4" x2="-121.92" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="B1" gate="G$1" pin="4"/>
-<pinref part="B1" gate="G$1" pin="3"/>
+<pinref part="RESET" gate="G$1" pin="4"/>
+<pinref part="RESET" gate="G$1" pin="3"/>
 <wire x1="-119.38" y1="-25.4" x2="-121.92" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="-121.92" y="-25.4"/>
 </segment>
