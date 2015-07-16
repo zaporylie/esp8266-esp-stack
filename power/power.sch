@@ -1148,31 +1148,31 @@ http://dangerousprototypes.com</description>
 <package name="ESP-BOARD">
 <dimension x1="-20.32" y1="12.7" x2="-20.32" y2="-15.24" x3="-26.67" y3="-1.27" textsize="1.27" layer="47"/>
 <dimension x1="-20.32" y1="12.7" x2="7.62" y2="12.7" x3="-6.35" y3="19.05" textsize="1.27" layer="47"/>
-<pad name="TXD0" x="-17.78" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="RXD0" x="-15.24" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO5" x="-12.7" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO4" x="-10.16" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO0" x="-7.62" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO2" x="-5.08" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO15" x="-2.54" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GND" x="0" y="13.97" drill="1.4" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="SCLK" x="2.54" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO12" x="0" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="V+" x="-17.78" y="-16.51" drill="1.4" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="VBATT" x="-15.24" y="-16.51" drill="1.4" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="RST" x="-12.7" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="ADC" x="-10.16" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="EN" x="-7.62" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO16" x="-5.08" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO14" x="-2.54" y="-16.51" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="MOSI" x="5.08" y="13.97" drill="1.4" diameter="2.1844" rot="R90"/>
-<pad name="GPIO13" x="2.54" y="-16.51" drill="1.4" diameter="2.1844"/>
-<pad name="VCC" x="5.08" y="-16.51" drill="1.4" diameter="2.1844" shape="square"/>
-<pad name="GPIO10" x="8.89" y="10.16" drill="1.4" diameter="2.1844"/>
-<pad name="GPIO9" x="8.89" y="7.62" drill="1.4" diameter="2.1844"/>
-<pad name="MISO" x="8.89" y="5.08" drill="1.4" diameter="2.1844"/>
-<pad name="CS0" x="8.89" y="2.54" drill="1.4" diameter="2.1844"/>
-<pad name="SIGNAL1" x="8.89" y="0" drill="1.4" diameter="2.1844"/>
+<pad name="TXD0" x="-17.78" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="RXD0" x="-15.24" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO5" x="-12.7" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO4" x="-10.16" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO0" x="-7.62" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO2" x="-5.08" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO15" x="-2.54" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GND" x="0" y="13.97" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="SCLK" x="2.54" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO12" x="0" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="V+" x="-17.78" y="-16.51" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="VBATT" x="-15.24" y="-16.51" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="RST" x="-12.7" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="ADC" x="-10.16" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="EN" x="-7.62" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO16" x="-5.08" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO14" x="-2.54" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="MOSI" x="5.08" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO13" x="2.54" y="-16.51" drill="1.5" diameter="2.1844"/>
+<pad name="VCC" x="5.08" y="-16.51" drill="1.5" diameter="2.1844" shape="square"/>
+<pad name="GPIO10" x="8.89" y="10.16" drill="1.5" diameter="2.1844"/>
+<pad name="GPIO9" x="8.89" y="7.62" drill="1.5" diameter="2.1844"/>
+<pad name="MISO" x="8.89" y="5.08" drill="1.5" diameter="2.1844"/>
+<pad name="CS0" x="8.89" y="2.54" drill="1.5" diameter="2.1844"/>
+<pad name="SIGNAL1" x="8.89" y="0" drill="1.5" diameter="2.1844"/>
 <wire x1="-19.05" y1="15.24" x2="6.35" y2="15.24" width="0.127" layer="22"/>
 <wire x1="6.35" y1="15.24" x2="6.35" y2="12.7" width="0.127" layer="22"/>
 <wire x1="6.35" y1="12.7" x2="-19.05" y2="12.7" width="0.127" layer="22"/>
@@ -1185,15 +1185,14 @@ http://dangerousprototypes.com</description>
 <wire x1="6.35" y1="-17.78" x2="-19.05" y2="-17.78" width="0.127" layer="22"/>
 <wire x1="-19.05" y1="-17.78" x2="-19.05" y2="-15.24" width="0.127" layer="22"/>
 <wire x1="-19.05" y1="-15.24" x2="6.35" y2="-15.24" width="0.127" layer="22"/>
-<dimension x1="8.89" y1="0" x2="9.5758" y2="0" x3="9.2329" y3="0" textsize="1.27" layer="47"/>
+<dimension x1="8.89" y1="0" x2="9.6266" y2="0" x3="9.2583" y3="0" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="2.54" x2="9.9822" y2="2.54" x3="9.4361" y3="2.54" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="7.62" x2="8.89" y2="10.16" x3="17.78" y3="8.89" textsize="1.27" layer="47"/>
-<text x="3.81" y="-13.97" size="1.778" layer="26" rot="MR90">&gt;Name</text>
-<pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.4" diameter="2.1844"/>
-<hole x="8.255" y="13.335" drill="3.2"/>
-<hole x="-20.955" y="13.335" drill="3.2"/>
-<hole x="8.255" y="-15.875" drill="3.2"/>
-<hole x="-20.955" y="-15.875" drill="3.2"/>
+<pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.5" diameter="2.1844"/>
+<hole x="8.255" y="13.335" drill="2.8"/>
+<hole x="-20.955" y="13.335" drill="2.8"/>
+<hole x="8.255" y="-15.875" drill="2.8"/>
+<hole x="-20.955" y="-15.875" drill="2.8"/>
 <dimension x1="-19.05" y1="15.24" x2="-19.05" y2="-17.78" x3="-30.48" y3="-1.27" textsize="1.27" layer="47"/>
 <dimension x1="10.16" y1="11.43" x2="-22.86" y2="11.43" x3="-6.35" y3="22.86" textsize="1.27" layer="47"/>
 </package>
@@ -3474,7 +3473,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="WAKE" library="jumper" deviceset="SJ" device=""/>
-<part name="B1" library="ESPstack" deviceset="SKSCLDE010" device=""/>
+<part name="B-BOOT" library="ESPstack" deviceset="SKSCLDE010" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -3521,7 +3520,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="GND9" gate="1" x="0" y="71.12"/>
 <instance part="U1" gate="G$1" x="-2.54" y="43.18"/>
 <instance part="WAKE" gate="1" x="152.4" y="20.32" rot="R90"/>
-<instance part="B1" gate="G$1" x="170.18" y="33.02" rot="R270"/>
+<instance part="B-BOOT" gate="G$1" x="170.18" y="33.02" rot="R270"/>
 <instance part="GND10" gate="1" x="170.18" y="20.32"/>
 </instances>
 <busses>
@@ -3663,8 +3662,8 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="0" y1="76.2" x2="0" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="3"/>
-<pinref part="B1" gate="G$1" pin="4"/>
+<pinref part="B-BOOT" gate="G$1" pin="3"/>
+<pinref part="B-BOOT" gate="G$1" pin="4"/>
 <wire x1="167.64" y1="30.48" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="30.48" x2="170.18" y2="22.86" width="0.1524" layer="91"/>
 <junction x="170.18" y="30.48"/>
@@ -3685,8 +3684,8 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="106.68" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="2"/>
-<pinref part="B1" gate="G$1" pin="1"/>
+<pinref part="B-BOOT" gate="G$1" pin="2"/>
+<pinref part="B-BOOT" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="38.1" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="38.1" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
 <junction x="170.18" y="38.1"/>
