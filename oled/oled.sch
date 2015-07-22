@@ -43,8 +43,12 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -54,6 +58,40 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -62,31 +100,31 @@
 <package name="ESP-BOARD">
 <dimension x1="-20.32" y1="12.7" x2="-20.32" y2="-15.24" x3="-26.67" y3="-1.27" textsize="1.27" layer="47"/>
 <dimension x1="-20.32" y1="12.7" x2="7.62" y2="12.7" x3="-6.35" y3="19.05" textsize="1.27" layer="47"/>
-<pad name="TXD0" x="-17.78" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="RXD0" x="-15.24" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO5" x="-12.7" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO4" x="-10.16" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO0" x="-7.62" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO2" x="-5.08" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO15" x="-2.54" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GND" x="0" y="13.97" drill="1.2" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="SCLK" x="2.54" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO12" x="0" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="V+" x="-17.78" y="-16.51" drill="1.2" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="VBATT" x="-15.24" y="-16.51" drill="1.2" diameter="2.1844" shape="square" rot="R90"/>
-<pad name="RST" x="-12.7" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="ADC" x="-10.16" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="EN" x="-7.62" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO16" x="-5.08" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO14" x="-2.54" y="-16.51" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="MOSI" x="5.08" y="13.97" drill="1.2" diameter="2.1844" rot="R90"/>
-<pad name="GPIO13" x="2.54" y="-16.51" drill="1.2" diameter="2.1844"/>
-<pad name="VCC" x="5.08" y="-16.51" drill="1.2" diameter="2.1844" shape="square"/>
-<pad name="GPIO10" x="8.89" y="10.16" drill="1.2" diameter="2.1844"/>
-<pad name="GPIO9" x="8.89" y="7.62" drill="1.2" diameter="2.1844"/>
-<pad name="MISO" x="8.89" y="5.08" drill="1.2" diameter="2.1844"/>
-<pad name="CS0" x="8.89" y="2.54" drill="1.2" diameter="2.1844"/>
-<pad name="SIGNAL1" x="8.89" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="TXD0" x="-17.78" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="RXD0" x="-15.24" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO5" x="-12.7" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO4" x="-10.16" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO0" x="-7.62" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO2" x="-5.08" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO15" x="-2.54" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GND" x="0" y="13.97" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="SCLK" x="2.54" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO12" x="0" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="V+" x="-17.78" y="-16.51" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="VBATT" x="-15.24" y="-16.51" drill="1.5" diameter="2.1844" shape="square" rot="R90"/>
+<pad name="RST" x="-12.7" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="ADC" x="-10.16" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="EN" x="-7.62" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO16" x="-5.08" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO14" x="-2.54" y="-16.51" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="MOSI" x="5.08" y="13.97" drill="1.5" diameter="2.1844" rot="R90"/>
+<pad name="GPIO13" x="2.54" y="-16.51" drill="1.5" diameter="2.1844"/>
+<pad name="VCC" x="5.08" y="-16.51" drill="1.5" diameter="2.1844" shape="square"/>
+<pad name="GPIO10" x="8.89" y="10.16" drill="1.5" diameter="2.1844"/>
+<pad name="GPIO9" x="8.89" y="7.62" drill="1.5" diameter="2.1844"/>
+<pad name="MISO" x="8.89" y="5.08" drill="1.5" diameter="2.1844"/>
+<pad name="CS0" x="8.89" y="2.54" drill="1.5" diameter="2.1844"/>
+<pad name="SIGNAL1" x="8.89" y="0" drill="1.5" diameter="2.1844"/>
 <wire x1="-19.05" y1="15.24" x2="6.35" y2="15.24" width="0.127" layer="22"/>
 <wire x1="6.35" y1="15.24" x2="6.35" y2="12.7" width="0.127" layer="22"/>
 <wire x1="6.35" y1="12.7" x2="-19.05" y2="12.7" width="0.127" layer="22"/>
@@ -99,41 +137,16 @@
 <wire x1="6.35" y1="-17.78" x2="-19.05" y2="-17.78" width="0.127" layer="22"/>
 <wire x1="-19.05" y1="-17.78" x2="-19.05" y2="-15.24" width="0.127" layer="22"/>
 <wire x1="-19.05" y1="-15.24" x2="6.35" y2="-15.24" width="0.127" layer="22"/>
-<text x="0" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">GND</text>
-<text x="-2.54" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">GPIO15</text>
-<text x="-5.08" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">GPIO2</text>
-<text x="-7.62" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">GPIO0</text>
-<text x="-10.16" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">GPIO4</text>
-<text x="-12.7" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">GPIO5</text>
-<text x="-15.24" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">RXD0</text>
-<text x="2.54" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">SCLK</text>
-<text x="5.08" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">MOSI</text>
-<text x="-17.78" y="-14.605" size="0.6096" layer="22" rot="R26.5">V+</text>
-<text x="-15.24" y="-14.605" size="0.6096" layer="22" rot="R26.5">VBATT</text>
-<text x="-12.7" y="-14.605" size="0.6096" layer="22" rot="R26.5">RST</text>
-<text x="-10.16" y="-14.605" size="0.6096" layer="22" rot="R26.5">ADC</text>
-<text x="-7.62" y="-14.605" size="0.6096" layer="22" rot="R26.5">EN</text>
-<text x="-5.08" y="-14.605" size="0.6096" layer="22" rot="R26.5">GPIO16</text>
-<text x="-2.54" y="-14.605" size="0.6096" layer="22" rot="R26.5">GPIO14</text>
-<text x="0" y="-14.605" size="0.6096" layer="22" rot="R26.5">GPIO12</text>
-<text x="2.54" y="-14.605" size="0.6096" layer="22" rot="R26.5">GPIO13</text>
-<text x="5.08" y="-14.605" size="0.6096" layer="22" rot="R26.5">VCC</text>
-<text x="6.985" y="10.16" size="0.6096" layer="22" rot="R45" align="top-right">GPIO10</text>
-<text x="6.985" y="7.62" size="0.6096" layer="22" rot="R45" align="top-right">GPIO9</text>
-<text x="6.985" y="5.08" size="0.6096" layer="22" rot="R45" align="top-right">MISO</text>
-<text x="6.985" y="2.54" size="0.6096" layer="22" rot="R45" align="top-right">CS0</text>
-<text x="6.985" y="0" size="0.6096" layer="22" rot="R45" align="top-right">SIGNAL1</text>
-<text x="-17.78" y="12.065" size="0.6096" layer="22" rot="R225" align="top-left">TXD0</text>
-<dimension x1="8.89" y1="0" x2="9.4996" y2="0" x3="9.1948" y3="0" textsize="1.27" layer="47"/>
+<dimension x1="8.89" y1="0" x2="9.6266" y2="0" x3="9.2583" y3="0" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="2.54" x2="9.9822" y2="2.54" x3="9.4361" y3="2.54" textsize="1.27" layer="47"/>
 <dimension x1="8.89" y1="7.62" x2="8.89" y2="10.16" x3="17.78" y3="8.89" textsize="1.27" layer="47"/>
-<text x="3.81" y="-11.43" size="1.778" layer="26" rot="R90">&gt;Name</text>
-<pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.2" diameter="2.1844"/>
-<text x="6.985" y="-2.54" size="0.6096" layer="22" rot="R45" align="top-right">SIGNAL2</text>
+<pad name="SIGNAL2" x="8.89" y="-2.54" drill="1.5" diameter="2.1844"/>
 <hole x="8.255" y="13.335" drill="2.8"/>
 <hole x="-20.955" y="13.335" drill="2.8"/>
 <hole x="8.255" y="-15.875" drill="2.8"/>
 <hole x="-20.955" y="-15.875" drill="2.8"/>
+<dimension x1="-19.05" y1="15.24" x2="-19.05" y2="-17.78" x3="-30.48" y3="-1.27" textsize="1.27" layer="47"/>
+<dimension x1="10.16" y1="11.43" x2="-22.86" y2="11.43" x3="-6.35" y3="22.86" textsize="1.27" layer="47"/>
 </package>
 </packages>
 <symbols>
